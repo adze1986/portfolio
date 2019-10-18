@@ -3,21 +3,85 @@
 
 body {
     background-image: url(test.jpg);
+    background-size: 100% 100%;    
 }
-
 .main {
     margin: auto;
     width: 920px;
 }
 h1 {
     color: antiquewhite;
-
 }
 h2 {
     color: antiquewhite;
-
 }
 p {
     color: antiquewhite;
+}
+
+.port{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    left: -20pc;
+    font-family: 'Cinzel', cursive;
+    font-size: 40px;
+
+}
+.about {
+    position: relative;
+    top: -90px;
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    left: -17pc;
+
+}
+.basic {
+    position: relative;
+    top: -120px;
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    left: -10pc;
+}
+.basic p {
+    width: 600px;
+    text-shadow: 2px 2px  red;
+}
+.skills1 {
+    position: relative;
+    top: -80px;
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    left: -17pc;
+}
+.skills2 {
+    position: relative;
+    top: -346px;
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    left: 15pc;
+}
+.skills1 li{
+    color: antiquewhite;
+    text-shadow: 2px 2px  red;
+}
+.skills2 li{
+    color: antiquewhite;
+    text-shadow: 2px 2px  red;
+}
+
+.projects {
+    position: relative;
+    height: 40xp;
+    width: 100%;
+    padding: 10px;
+    top: -300px;
+    left: -17pc;
+
 
 }
