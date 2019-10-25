@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 
 body {
     background-image: url(test.jpg);
-    background-size: 100% 100%;    
+    background-size: 100% 100%;  
 }
 .main {
     margin: auto;
@@ -11,9 +12,23 @@ body {
 }
 h1 {
     color: antiquewhite;
+    text-shadow: 1px 1px  blue;
 }
 h2 {
     color: antiquewhite;
+    text-shadow: 1px 1px  greenyellow;
+}
+.adam {
+    position: relative;
+    font-family: 'Indie Flower', cursive;
+    font-size: 70px;
+    top: -150px;
+    height: 10px;
+    width: 500px;
+    padding: 5px;
+    left: -100px;
+    color: rgb(158, 146, 224);
+    text-shadow: 1px 1px  magenta;
 }
 p {
     color: antiquewhite;
@@ -21,13 +36,13 @@ p {
 
 .port{
     position: relative;
-    height: 10%;
-    width: 100%;
+    top: -50px;
+    height: 170px;
+    width: 1400px;
     padding: 10px;
     left: -20pc;
     font-family: 'Cinzel', cursive;
     font-size: 40px;
-
 }
 .about {
     position: relative;
@@ -36,7 +51,6 @@ p {
     width: 100%;
     padding: 10px;
     left: -17pc;
-
 }
 .basic {
     position: relative;
@@ -48,40 +62,162 @@ p {
 }
 .basic p {
     width: 600px;
-    text-shadow: 2px 2px  red;
+    text-shadow: 1px 1px  blue;
+}
+.skills {
+    background-color: rgb(108, 132, 153);
+    position: relative;
+    top: -80px;
+    height: 250px;
+    width: 800px;
+    padding: 10px;
+    left: -300px;
+    border-radius: 15%;
+    box-shadow: 3px 3px 30px 3px rgb(192, 85, 85);
 }
 .skills1 {
     position: relative;
-    top: -80px;
-    height: 10%;
-    width: 100%;
+    top: -30px;
+    height: 300px;
+    width: 400px;
     padding: 10px;
-    left: -17pc;
+    left: 50px;
 }
 .skills2 {
     position: relative;
     top: -346px;
     height: 10%;
-    width: 100%;
+    width: 400px;
     padding: 10px;
-    left: 15pc;
+    left: 500px;
 }
 .skills1 li{
     color: antiquewhite;
-    text-shadow: 2px 2px  red;
+    text-shadow: 1px 1px  blue;
 }
 .skills2 li{
     color: antiquewhite;
-    text-shadow: 2px 2px  red;
+    text-shadow: 1px 1px  blue;
 }
-
 .projects {
     position: relative;
     height: 40xp;
-    width: 100%;
+    width: 1%;
     padding: 10px;
-    top: -300px;
-    left: -17pc;
+    top: -50px;
+    left: -200px;
+}
+.projects li:hover{
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes spin {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    10%{
+        transform: rotateZ(190deg);
+    }
+    20%{
+        transform: rotateZ(45deg);
+    }
+    30%{
+        transform: rotateZ(140deg);
+    }
+    40% {
+        transform: rotateZ(90deg);
+    }
+    90%{
+        transform: translateY(300px);
+    }
+}
+.adam:hover{
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes color {
+    0%{
+        color: rgb(158, 146, 224);
 
+    }
+    10%{
+        color: red;
+    }
+    20%{
+        color: blue;
+    }
+    30%{
+        color: greenyellow;
+    }
+    40%{
+        color:gold;
+    }
+    50%{
+        color: violet;
+    }
+    60%{
+        color: rgb(170, 52, 81);
+    }
+    70%{
+        color: rgb(42, 20, 161);
+    }
+    80%{
+        color: rgb(73, 119, 80);
+    }
+    90%{
+        color: rgb(47, 31, 141);
+    }
+    100%{
+        color: rgb(158, 146, 224);
 
+    }
+}
+
+.logo1 {
+    position: relative;
+    top: -100px;
+    height: 10px;
+    width: 100px;
+    padding: 10px;
+    left: 645px;
+    font-family: 'Cinzel', cursive;
+    font-size: 40px;
+}
+
+#css {
+    position: relative;
+    top: -80px;
+    left: 150px;
+}
+#html {
+    position: relative;
+    top:  -30px;
+    left: 103px;
+}
+#ios {
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+#java {
+    position: relative;
+    top: 46px;
+    left: 100px;
+}
+#node{
+    position: relative;
+    top: 50px;
+    left: 115px;
+}
+#react {
+    position: relative;
+    top: 90px;
+    left: 80px;
+}
+#sql {
+    position: relative;
+    top: 90px;
+    left: 40px;
 }
